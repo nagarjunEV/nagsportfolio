@@ -35,6 +35,7 @@ const Projects = () => (
           experience,
           company,
           role,
+          responsibilities,
           source,
           visit,
         }) => (
@@ -47,7 +48,7 @@ const Projects = () => (
             <HeaderFive title="true"> {experience}</HeaderFive>
             <HeaderFive> {company}</HeaderFive>
             <Hr />
-            <CardInfo>{description}</CardInfo>
+            <CardInfo>{responsibilities}</CardInfo>
             <div style={{ marginTop: '1rem' }}>
               <TitleContent>Tech Stack</TitleContent>
               <TagList>

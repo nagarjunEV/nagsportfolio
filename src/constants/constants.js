@@ -3,6 +3,8 @@ export const projects = [
     title: 'TrakZeus',
     description:
       'TrakZeus is a connected fleet management solution from Bosch that helps in improving the efficiency and productivity through better vehicle monitoring and improved cost-saving preventive maintenance',
+    responsibilities:
+      'Built a Live Tracking Web application that supported large scale Fleet management. I worked on both frontend and backend development. I implemented redis cache for live tracking. Implemented JSON Web Token (JWT) mechanism and OAuth2 protocol to provide secure user interaction.',
     image: '/images/1.png',
     experience: 'Professional Experience',
     role: 'Full Stack Web Developer',
@@ -16,6 +18,8 @@ export const projects = [
     title: 'Bosch Car Service - UK',
     description:
       'Bosch Car Service - Service Portal (United Kingdom) provides platform for a network of garages to showcase service plans which delivers high quality service, maintenance, and repairs for several types of fleets',
+    responsibilities:
+      'I worked with Robert Bosch UK and developed a web application which is being used to manage the purchase of periodical car service plans. I integrated “Payment Assist,” a third party payment gateway, and used SHA-256 encryption algorithm for secure data transfer between microservices',
     image: '/images/2.png',
     experience: 'Professional Experience',
     company: 'Robert Bosch Engineering and Business Solutions Pvt Ltd',
@@ -29,6 +33,8 @@ export const projects = [
     title: 'Honda iWorkshop',
     description:
       'A fully integrated digital workshop management system that combines vital workshop activities into a simple and intuitive solution. Contributed to customer satisfaction by providing real-time updates about check-in, estimation, bay management, re-estimation, etc.',
+    responsibilities:
+      'I developed frontend for a fully integrated digital workshop management system that combined vital workshop activities and processes into a simple and intuitive solution. I contributed in developing features which provided real-time updates for end users about check-in, estimation, bay management, re-estimation, etc. which contributed for customer satisfaction.',
     image: '/images/3.jpg',
     experience: 'Professional Experience',
     company: 'Robert Bosch Engineering and Business Solutions Pvt Ltd',
@@ -42,6 +48,8 @@ export const projects = [
     title: 'Measuring Master',
     description:
       'Measuring Master by Bosch Measuring Tools is android application which provides easy on-site documentation of floor plans, measurements, photos, and notes. It provides Add in measurements directly from laser range finder via Bluetooth',
+    responsibilities:
+      'I led automation team by developing test cases catering to various user interface elements and behavior by utilizing TestNG framework in an Android application. Evaluated and validated over 300 test cases, cutting back on end to end testing by 90%. Measuring Master is an android application which provides easy on-site documentation of floor plans, measurements, photos, and notes.',
     image: '/images/4.jpg',
     experience: 'Professional Experience',
     company: 'Robert Bosch Engineering and Business Solutions Pvt Ltd',
