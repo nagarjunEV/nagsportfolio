@@ -19,9 +19,9 @@ const Hero = (props) => (
         Enumudi Venkatesha!
       </SectionTitle>
       <SectionText>
-        Nagarjun has extensively worked on web development as a Full Stack
+        I have extensively worked on web development as a Full Stack
         developer for 3+ years. <br />
-        His expertise lies in -<br />
+        My expertise lies in -<br />
         Popular JavaScript libraries like React.js, Redux,
         <br /> Java Framework Spring Boot for backend and <br /> SQL, MongoDB,
         and Redis for Databases. <br />
