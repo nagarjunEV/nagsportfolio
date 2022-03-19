@@ -4,7 +4,7 @@ export const projects = [
     description:
       'TrakZeus is a connected fleet management solution from Bosch that helps in improving the efficiency and productivity through better vehicle monitoring and improved cost-saving preventive maintenance',
     responsibilities:
-      'Built a Live Tracking Web application that supported large scale Fleet management. Also worked on both frontend and backend development. Implemented redis cache for live tracking. Implemented JSON Web Token (JWT) mechanism and OAuth2 protocol to provide secure user interaction.',
+      'Built a Live Tracking Web application that supported large scale Fleet management. Worked on both frontend and backend development. Implemented redis cache for live tracking. Implemented JSON Web Token (JWT) mechanism and OAuth2 protocol to provide secure user interaction.',
     image: '/images/1.png',
     experience: 'Professional Experience',
     role: 'Full Stack Web Developer',
