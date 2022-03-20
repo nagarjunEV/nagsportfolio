@@ -20,11 +20,15 @@ const Hero = () => (
       </SectionTitle>
       <SectionText>
         I have extensively worked on web development as a Full Stack developer
-        for 3+ years. <br />
-        My expertise lies in -<br />
+        for 3+ years
+        <br />
+        My expertise lies in
+        <br />
         JavaScript libraries like React.js, Redux, and Angular 6
-        <br /> Java Framework Spring Boot for backend and <br /> SQL, MongoDB,
-        and Redis for Databases. <br />
+        <br />
+        Java Framework Spring Boot for backend and
+        <br />
+        SQL, MongoDB, and Redis for Databases. <br />
         {/* He always writes efficient and reusable code. */}
       </SectionText>
       {/* <Button></Button> */}
