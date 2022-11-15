@@ -6,6 +6,7 @@ import {
   DiJava,
   DiReact,
   DiZend,
+  DiAws,
 } from 'react-icons/di';
 import {
   Section,
@@ -27,18 +28,25 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked as Full Stack Web developer for 3+ years.
+      {/* I have worked as Full Stack Web developer for 3+ years. */}
       <br />
       My professional experience has given me the ability to solve intriguing
       real-world problems at an industrial scale.
     </SectionText>
     <List>
       <ListItem>
+        <DiAws size="3rem" />
+        <ListContainer>
+          <ListTitle>AWS</ListTitle>
+          <ListParagraph>EC2, Lambda, Redshift, S3</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience in <br />
+            {/* Experience in <br /> */}
             React.js, Redux, and Angular 6
           </ListParagraph>
         </ListContainer>
@@ -48,8 +56,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience in <br />
-            Java and Spring Boot
+            {/* Experience in <br /> */}
+            Spring Boot and Express.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -58,8 +66,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Database</ListTitle>
           <ListParagraph>
-            Experience in <br />
-            SQL, Redis, and MongoDB
+            {/* Experience in <br /> */}
+            PostgreSQL, Redis, and MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -35,15 +35,15 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <SocialContainer>
-          <SocialIcons href="https://www.linkedin.com/in/nagev/">
+          <SocialIcons href="https://www.linkedin.com/in/nagarjun-ev/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://www.github.com/nagarjunEV">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.twitter.com/nagarjunev_11">
+          {/* <SocialIcons href="https://www.twitter.com/nagarjunev_11">
             <AiFillTwitterCircle size="3rem" />
-          </SocialIcons>
+          </SocialIcons> */}
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

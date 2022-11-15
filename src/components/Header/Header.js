@@ -30,8 +30,8 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
+        <Link href="#experience">
+          <NavLink>Experience</NavLink>
         </Link>
       </li>
       <li>
@@ -46,15 +46,15 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://www.linkedin.com/in/nagev/">
+      <SocialIcons href="https://www.linkedin.com/in/nagarjun-ev/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://www.github.com/nagarjunEV">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.twitter.com/nagarjunev_11">
+      {/* <SocialIcons href="https://www.twitter.com/nagarjunev_11">
         <AiFillTwitterCircle size="3rem" />
-      </SocialIcons>
+      </SocialIcons> */}
     </Div3>
   </Container>
 );

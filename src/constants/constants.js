@@ -1,25 +1,40 @@
 export const projects = [
   {
+    title: 'Tricentis Analytics',
+    description:
+      'TrakZeus is a connected fleet management solution from Bosch that helps in improving the efficiency and productivity through better vehicle monitoring and improved cost-saving preventive maintenance',
+    responsibilities:
+      'Defined schema for Defect dashboard data components stored in S3, implemented Lambda functions and AWS Glue to write data into Redshift, Clickhouse, and TimescaleDB. Prepared optimized queries and recorded the performance of the three Neoload-generated reports against each database',
+    image: '/images/1.png',
+    experience: 'Professional Experience',
+    role: 'Big Data Summer Intern',
+    company: 'Tricentis America Inc',
+    tags: ['AWS', 'Redshift', 'Timescale', 'Clickhouse', ''],
+    source: 'https://www.youtube.com/watch?v=c4FJCd1BIs8',
+    visit: 'https://www.bosch-mobility-solutions.com/en/',
+    id: 0,
+  },
+  {
     title: 'TrakZeus',
     description:
       'TrakZeus is a connected fleet management solution from Bosch that helps in improving the efficiency and productivity through better vehicle monitoring and improved cost-saving preventive maintenance',
     responsibilities:
-      'Built a Live Tracking Web application that supported large scale Fleet management. Worked on both frontend and backend development. Implemented redis cache for live tracking. Implemented JSON Web Token (JWT) mechanism and OAuth2 protocol to provide secure user interaction.',
+      'Developed a Live Tracking web application on React.js and Spring Boot that supported more than 1000 vehicles. Employed OAuth2 protocol and the JSON Web Token (JWT) mechanism to provide the most secure user interaction. Incoporated redis for implementing cache for live tracking.',
     image: '/images/1.png',
     experience: 'Professional Experience',
     role: 'Full Stack Web Developer',
     company: 'Robert Bosch Engineering and Business Solutions Pvt Ltd',
-    tags: ['React', 'Spring Boot', 'SQL', 'Redis', 'OAuth2'],
+    tags: ['React', 'Spring Boot', 'MySQL', 'Redis', 'OAuth2'],
     source: 'https://www.youtube.com/watch?v=c4FJCd1BIs8',
     visit: 'https://www.bosch-mobility-solutions.com/en/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Bosch Car Service - UK',
     description:
       'Bosch Car Service - Service Portal (United Kingdom) provides platform for a network of garages to showcase service plans which delivers high quality service, maintenance, and repairs for several types of fleets',
     responsibilities:
-      'Worked with Robert Bosch UK and developed a web application which is being used to manage the purchase of periodical car service plans. Also integrated “Payment Assist,” a third party payment gateway, and used SHA-256 encryption algorithm for secure data transfer between microservices',
+      'Built an virtual workshop for Robert Bosch UK which helped in the purchase of periodical car maintenance plans. Integrated “Payment Assist,” a third-party payment gateway, and used the SHA-256 hashing for secure data transfer',
     image: '/images/2.png',
     experience: 'Professional Experience',
     company: 'Robert Bosch Engineering and Business Solutions Pvt Ltd',
@@ -27,7 +42,7 @@ export const projects = [
     tags: ['Angular 6', 'Spring Boot', 'MySQL', 'OAuth2'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Honda iWorkshop',
@@ -39,17 +54,17 @@ export const projects = [
     experience: 'Professional Experience',
     company: 'Robert Bosch Engineering and Business Solutions Pvt Ltd',
     role: 'Frontend Web Developer',
-    tags: ['Angular 4', 'Spring Framework', 'SQL', 'Basic Auth'],
+    tags: ['Angular 4', 'Spring Boot', 'SQL', 'Basic Auth'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Measuring Master',
     description:
       'Measuring Master by Bosch Measuring Tools is android application which provides easy on-site documentation of floor plans, measurements, photos, and notes. It provides Add in measurements directly from laser range finder via Bluetooth',
     responsibilities:
-      'Led automation team by developing test cases catering to various user interface elements and behavior by utilizing TestNG framework in an Android application. Evaluated and validated over 300 test cases, cutting back on end to end testing by 90%. Measuring Master is an android application which provides easy on-site documentation of floor plans, measurements, photos, and notes.',
+      'Created over 300 test cases in collaboration with the automation team catering to various UI elements and behavior using TestNG framework in an Android application. Evaluated and validated all the test cases, cutting back on end-to-end manual testing by 90%',
     image: '/images/4.jpg',
     experience: 'Professional Experience',
     company: 'Robert Bosch Engineering and Business Solutions Pvt Ltd',
@@ -57,19 +72,19 @@ export const projects = [
     tags: ['Java', 'TestNG', 'Appium'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 3,
+    id: 4,
   },
 ];
 
 export const TimeLineData = [
   {
-    year: 2018,
-    text: 'Started my journey at Robert Bosch Engineering and Business Solutions Pvt Ltd (RBEI)',
-  },
-  {
     year: `2018`,
-    text: 'Worked as a Test Automation Intern for 6 months at RBEI from Jan 2018 to Jun 2018',
+    text: 'Started my journey at RBEI as a Test Automation Intern from Jan 2018 to Jun 2018',
   },
+  // {
+  //   year: `2018`,
+  //   text: 'Worked as a Test Automation Intern for 6 months at RBEI ',
+  // },
   {
     year: `2018`,
     text: 'Worked as Associate Software Developer at RBEI from Aug 2018 to Feb 2020',
@@ -77,5 +92,9 @@ export const TimeLineData = [
   {
     year: `2020`,
     text: 'Worked as Senior Software Developer at RBEI from Mar 2020 to Jul 2021',
+  },
+  {
+    year: `2022`,
+    text: 'Worked as Big Data Summer Intern at Tricentis from June 2022 to August 2022',
   },
 ];

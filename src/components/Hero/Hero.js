@@ -24,11 +24,13 @@ const Hero = () => (
         <br />
         My expertise lies in
         <br />
-        JavaScript libraries like React.js, Redux, and Angular 6
+        React.js, Redux JavaScript libraries
         <br />
-        Java Framework Spring Boot for backend and
+        Python, Pyspark, Scala, AWS, Docker and
         <br />
-        SQL, MongoDB, and Redis for Databases. <br />
+        Spring Boot, Express.js for backend
+        <br />
+        PostgreSQL, MySQL, MongoDB, and Redis for Databases. <br />
         {/* He always writes efficient and reusable code. */}
       </SectionText>
       {/* <Button></Button> */}
