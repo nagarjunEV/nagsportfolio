@@ -67,7 +67,7 @@ const Technologies = () => (
           <ListTitle>Database</ListTitle>
           <ListParagraph>
             {/* Experience in <br /> */}
-            PostgreSQL, Redis, and MongoDB
+            MySQL, PostgreSQL, Redis, and MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>

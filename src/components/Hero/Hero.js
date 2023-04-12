@@ -26,11 +26,11 @@ const Hero = () => (
         <br />
         React.js, Redux JavaScript libraries
         <br />
-        Python, Pyspark, Scala, AWS, Docker and
-        <br />
         Spring Boot, Express.js for backend
         <br />
-        PostgreSQL, MySQL, MongoDB, and Redis for Databases. <br />
+        Python, Pyspark, AWS, Docker and
+        <br />
+        PostgreSQL, MySQL, Redis and MongoDB for Databases. <br />
         {/* He always writes efficient and reusable code. */}
       </SectionText>
       {/* <Button></Button> */}
