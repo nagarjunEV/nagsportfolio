@@ -19,8 +19,8 @@ const Hero = () => (
         Enumudi Venkatesha!
       </SectionTitle>
       <SectionText>
-        I have extensively worked on web development as a Full Stack developer
-        for 3+ years
+        Full Stack Web Developer with 3+ Years of Industry Experience: Committed
+        on delivering High-Quality Solutions for Web Applications
         <br />
         My expertise lies in
         <br />
