@@ -8,7 +8,9 @@ export const Img = styled.img`
 `;
 
 export const GridContainer = styled.section`
-  display: grid;
+  display: row;
+  width: 100%;
+  // flex-direction: row;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   padding: 3rem;
   place-items: center;
@@ -25,7 +27,7 @@ export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
-  width: 400px;
+  width: 100%;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -78,7 +80,7 @@ export const CardInfo = styled.p`
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
+  text-align: start;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.3rem;
   }

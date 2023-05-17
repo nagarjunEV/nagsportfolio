@@ -38,7 +38,7 @@ const Technologies = () => (
         <DiAws size="3rem" />
         <ListContainer>
           <ListTitle>AWS</ListTitle>
-          <ListParagraph>EC2, Lambda, Redshift, S3</ListParagraph>
+          <ListParagraph>EC2, Lambda, S3</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>

@@ -19,17 +19,17 @@ const Hero = () => (
         Enumudi Venkatesha!
       </SectionTitle>
       <SectionText>
-        Full Stack Web Developer with 3+ Years of Industry Experience
+        A Full Stack Web Developer with 3+ Years of Industry Experience
         <br />
-        Committed on delivering High-Quality Solutions for Web Applications
+        Dedicated to delivering High-Quality Solutions for Web applications
         <br />
-        My expertise lies in
+        My expertise lies in:
         <br />
         React.js, Redux JavaScript libraries
         <br />
         Spring Boot, Express.js for backend
         <br />
-        Python, Pyspark, AWS, Docker and
+        Python, AWS, NumPy, Pandas, Docker and
         <br />
         PostgreSQL, MySQL, Redis and MongoDB for Databases. <br />
         {/* He always writes efficient and reusable code. */}

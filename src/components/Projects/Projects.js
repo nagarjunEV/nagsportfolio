@@ -45,12 +45,12 @@ const Projects = () => (
               <HeaderFive title="true"> {role}</HeaderFive>
             </TitleContent>
             <Hr />
-            <HeaderFive title="true"> {experience}</HeaderFive>
-            <HeaderFive> {company}</HeaderFive>
+            {/* <HeaderFive title="true"> {experience}</HeaderFive> */}
+            <HeaderFive title="true"> {company}</HeaderFive>
             <Hr />
             <CardInfo>{responsibilities}</CardInfo>
             <div style={{ marginTop: '1rem' }}>
-              <TitleContent>Tech Stack</TitleContent>
+              <TitleContent>Technologies</TitleContent>
               <TagList>
                 {tags.map((tag, i) => (
                   <Tag key={i}>{tag}</Tag>
